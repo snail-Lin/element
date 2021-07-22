@@ -4,6 +4,13 @@
 @import "./radio";
 @import "./scrollbar";
 
+.el-cascader-top {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 8px;
+  padding-left: 20px;
+  color: #0C4CFF;
+}
+
 @include b(cascader-panel) {
   display: flex;
   border-radius: $--cascader-menu-radius;

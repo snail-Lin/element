@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="top">
+    <div class="el-cascader-top">
       <span style="cursor: pointer;">全选</span>
     </div>
     <div
@@ -386,11 +386,3 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
-.top {
-  border-bottom: 1px solid #EEEEEE;
-  padding: 8px;
-  padding-left: 20px;
-  color: #0C4CFF;
-}
-</style>
