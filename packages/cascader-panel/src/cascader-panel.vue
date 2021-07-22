@@ -1,5 +1,9 @@
 <template>
-  <div
+  <div>
+    <div class="top">
+      <span style="cursor: pointer;">全选</span>
+    </div>
+    <div
     :class="[
       'el-cascader-panel',
       border && 'is-bordered'
@@ -11,6 +15,7 @@
       :index="index"
       :key="index"
       :nodes="menu"></cascader-menu>
+    </div>
   </div>
 </template>
 
@@ -381,3 +386,11 @@ export default {
   }
 };
 </script>
+<style lang="scss" scoped>
+.top {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 8px;
+  padding-left: 20px;
+  color: #0C4CFF;
+}
+</style>
